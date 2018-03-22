@@ -28,6 +28,6 @@
 *.exe
 *.out
 *.app
-
+*.*~
 
 build*

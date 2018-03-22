@@ -93,6 +93,10 @@ target_link_libraries(subscribe_example ${catkin_LIBRARIES} ros_type_introspecti
 )
 
 
+add_executable(rosbag_msg_print        example/rosbag_msg_print.cpp)
+target_link_libraries(rosbag_msg_print  ${catkin_LIBRARIES} ros_type_introspection
+)
+
 #############
 ## Install ##
 #############
